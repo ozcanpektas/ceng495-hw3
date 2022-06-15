@@ -15,9 +15,9 @@ $ songs_normalize.csv ---> songs_normalize.tsv
 $ hadoop com.sun.tools.javac.Main Hw3.java
 $ jar cf Hw3.jar Hw3*.class
 ```
-## Running
 
-__Instead of .csv, pass tsv file as input. __
+## Running
+__Instead of .csv, pass tsv file as input.__
 ```
 hadoop jar Hw3.jar Hw3 total <input.tsv> output_total
 hadoop jar Hw3.jar Hw3 average <input.tsv> output_average
